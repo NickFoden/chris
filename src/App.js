@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      {/*<header className="App-header">
         <nav className="App-nav">
           <Link href='/' activeClassName='active' exact>
             Home
@@ -17,7 +17,7 @@ function App() {
             Getting Started
           </Link>
         </nav>
-      </header>
+      </header>*/}
 
       <main>
         <NotFoundBoundary render={renderNotFound}>

@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sanity/client": "^0.140.11",
+    "dotenv": "^7.0.0",
     "navi": "0.12.4",
     "navi-scripts": "0.12.4",
     "react": "^16.8.5",
@@ -12,9 +14,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && navi-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "navi-scripts serve"
   },
   "eslintConfig": {
     "extends": "react-app"
