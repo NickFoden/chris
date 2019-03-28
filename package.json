@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@sanity/client": "^0.140.11",
-    "@sanity/image-url": "^0.140.12",
+    "@sanity/client": "^0.140.8",
+    "@sanity/image-url": "^0.140.8",
     "dotenv": "^7.0.0",
     "navi": "0.12.4",
     "navi-scripts": "0.12.4",
