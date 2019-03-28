@@ -9,3 +9,8 @@
 .Index code {
   font-family: Inconsolata;
 }
+
+h1,
+p {
+  font-family: "GangsterGrotesk-Bold";
+}

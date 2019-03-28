@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900|Inconsolata:400,700');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900|Inconsolata:400,700");
 
 * {
   box-sizing: border-box;
@@ -14,4 +14,17 @@ body {
   padding: 0;
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+@font-face {
+  font-family: "GangsterGrotesk-Regular";
+  src: url("./assets/fonts/GangsterGrotesk-Regular.otf");
+}
+@font-face {
+  font-family: "GangsterGrotesk-Light";
+  src: url("./assets/fonts/GangsterGrotesk-Light.otf");
+}
+@font-face {
+  font-family: "GangsterGrotesk-Bold";
+  src: url("./assets/fonts/GangsterGrotesk-Bold.otf");
 }

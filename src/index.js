@@ -20,7 +20,7 @@ register({
   // Learn about custom static renderers at:
   // https://frontarm.com/navi/guides/static-rendering/
   exports: {
-    App,
+    App
   },
 
   // This will only be called when loading your app in the browser. It won't
