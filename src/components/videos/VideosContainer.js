@@ -24,7 +24,6 @@ class VideosContainer extends Component {
   }
   render() {
     const { videos } = this.state;
-    console.log(this.state.videos);
     return (
       <div className="album_container">
         <ul style={{ listStyle: "none" }}>
