@@ -24,7 +24,7 @@ const VideoCard = props => {
   return (
     <div>
       {showVideo ? (
-        <div style={{ marginLeft: "15vw", marginBottom: "5vh" }}>
+        <div style={{ marginLeft: "25px", marginBottom: "25px" }}>
           <ReactPlayer url={video.vimeo_link} />
           <p>{toPlainText(video.body)}</p>
         </div>
