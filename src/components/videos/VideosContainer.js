@@ -25,7 +25,7 @@ class VideosContainer extends Component {
   render() {
     const { videos } = this.state;
     return (
-      <div className="album_container">
+      <div>
         <ul style={{ listStyle: "none" }}>
           {videos
             .sort(function(a, b) {
