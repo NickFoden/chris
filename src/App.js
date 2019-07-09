@@ -1,13 +1,12 @@
-import React from 'react';
-import { Link, View, NotFoundBoundary, useLoadingRoute } from 'react-navi';
-import { MDXProvider } from '@mdx-js/tag';
-import './App.css';
+import React from "react";
+import { Link, View, NotFoundBoundary, useLoadingRoute } from "react-navi";
+import { MDXProvider } from "@mdx-js/tag";
 
 function App() {
-  let loadingRoute = useLoadingRoute()
+  let loadingRoute = useLoadingRoute();
 
   return (
-    <div className="App">
+    <div>
       {/*<header className="App-header">
         <nav className="App-nav">
           <Link href='/' activeClassName='active' exact>
@@ -27,14 +26,16 @@ function App() {
             // show or hide the loading bar.
             className={`
               App-loading-indicator
-              ${loadingRoute ? 'active' : ''}
+              ${loadingRoute ? "active" : ""}
             `}
           />
-          <MDXProvider components={{
-            // Use Navi's <Link> component to render links in
-            // Markdown files, ensuring navigation is handled by Navi.
-            a: Link,
-          }}>
+          <MDXProvider
+            components={{
+              // Use Navi's <Link> component to render links in
+              // Markdown files, ensuring navigation is handled by Navi.
+              a: Link
+            }}
+          >
             <View />
           </MDXProvider>
         </NotFoundBoundary>
@@ -50,10 +51,10 @@ function App() {
 // you'll just need to close the error overlay with the "x" at the top right.
 function renderNotFound() {
   return (
-    <div className='App-error'>
+    <div className="App-error">
       <h1>404 - Not Found</h1>
     </div>
-  )
-} 
+  );
+}
 
 export default App;
