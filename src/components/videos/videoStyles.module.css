@@ -1,0 +1,43 @@
+.react_player {
+  margin: 0 auto;
+}
+
+.video_container {
+  text-align: center;
+
+}
+
+.video_container p {
+  font-family: Inconsolata, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 20px 150px;
+
+}
+
+.video_image {
+  cursor: pointer;
+  height: 300px;
+  margin: 20px 0;
+  object-fit: cover;
+  width: 300px;
+}
+
+.video_image:hover {
+  opacity: .5;
+}
+
+.ul_videos {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+
+.ul_videos li {}
+/* @media (max-width: 900px) {
+    .ul_videos li {
+      margin: 10px 0;
+      width: 90%;
+    }
+  } */
