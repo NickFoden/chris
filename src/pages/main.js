@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../components/Header";
 import VideosContainer from "../components/videos/VideosContainer";
-import styles from "./styles.module.css";
+import styles from "./mainStyles.module.css";
 
 export default class index extends Component {
   render() {
